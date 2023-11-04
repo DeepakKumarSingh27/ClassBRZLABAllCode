@@ -1,0 +1,4 @@
+declare -A Student=([name]="Deepak" [rollno]=123 [branch]="CSE")
+#echo ${Student[name]}
+Student+=([name]="Kumar")
+echo ${Student[@]}
